@@ -3,7 +3,7 @@ require 'environment.php';
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/crud_mvc_aula/");
+	define("BASE_URL", "http://localhost/crud_mvc_aula_resolvido/");
 	$config['dbname'] = 'crud_mvc_aula';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';

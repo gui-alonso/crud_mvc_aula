@@ -42,7 +42,7 @@ class Contatos extends model {
     {
         if ($this->emailExists($email) == false) {
             $sql = "INSERT INTO contatos (nome, email) VALUES (:nome, :email)";
-            $sql = $this->db->query($sql);
+            $sql = $this->db->prepare($sql);
             $sql->bindValue(':nome', $nome);
             $sql->bindValue(':email', $email);
             $sql->execute();
