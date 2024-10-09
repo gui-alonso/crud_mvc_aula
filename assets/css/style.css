@@ -1,24 +1,26 @@
 body {
 	background-color:#EEEEEE;
 }
-header, section, footer {
-	max-width:800px;
-	background-color: #FFFFFF;
-	margin:auto;
+header{
+	max-width: 800px;
+	height: 100px;
+	background-color: #FFF;
+	margin: auto;
+	text-align: center;
 }
-
-header {
-	height:100px;
-	text-align:center;
+section{
+	max-width: 800px;
+	background-color: #FFF;
+	margin: auto;
 }
-footer {
-	height:100px;
-	text-align:center;
+footer{
+	height: 100px;
+	text-align: center;
 }
-
-.aviso {
-	padding:10px;
-	background-color:#FF0000;
-	border:2px solid #FFFFFF;
-	margin:10px;
+.aviso{
+	padding: 10px;
+	background-color: #FF0000;
+	color: white;
+	border: 1px solid white;
+	margin: 10px;
 }
